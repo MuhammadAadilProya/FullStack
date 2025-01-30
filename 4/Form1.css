@@ -1,0 +1,38 @@
+.Form
+{
+    background-color: rgb(112, 16, 145);
+    border: 2px solid black;
+    border-radius: 1px;
+    padding: 10px; 
+    margin: 15px; 
+    width: 650px; 
+    height: 1000px; 
+    flex-grow: 200px;                
+                     
+}
+.space {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Form input
+{
+    align-items: center;
+}
+
+label             
+{                  
+    font-size: 15px;  
+    color: #fcfcfc;
+    margin: 0; 
+}
+
+table
+{
+        border: 1px solid;     
+        border-collapse: collapse;
+        color: #fcfcfc;
+}
+
+
