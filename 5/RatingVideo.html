@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate the Media</title>
+    <link rel="stylesheet" href="RatingVideo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rate the Video</h1>
+        
+        <div class="video-player">
+            <video controls>
+                <source src="Naat.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <form id="ratingForm" class="rating-form">
+            <label for="rating">Rate the video (1 to 5):</label>
+            <input type="range" id="rating" name="rating" min="1" max="5" value="3" step="1">
+            <output for="rating" id="ratingValue">3</output>
+            <button type="submit">Submit Rating</button>
+        </form>
+    </div>
+
+    <script src="RatingVideo.js"></script>
+</body>
+</html>
